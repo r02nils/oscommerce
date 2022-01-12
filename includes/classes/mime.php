@@ -15,9 +15,7 @@
   Renamed and Modified by Jan Wildeboer for osCommerce
 */
 
-use messageStack;
-
-class mime extends messageStack
+class mime
 {
     var $_encoding;
     var $_subparts;
