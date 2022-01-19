@@ -100,6 +100,9 @@ define('TEXT_COPY_AS_LINK', 'Link product');
 define('TEXT_COPY_AS_DUPLICATE', 'Duplicate product');
 
 define('ERROR_CANNOT_LINK_TO_SAME_CATEGORY', 'Error: Can not link products in the same category.');
+define('ERROR_LENGTH_UNDER_0', 'Error: Value of Length is under 0');
+define('ERROR_HEIGHT_UNDER_0', 'Error: Value of Height is under 0');
+define('ERROR_WIDTH_UNDER_0', 'Error: Value of Width is under 0');
 define('ERROR_CATALOG_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Error: Catalog images directory is not writeable: ' . DIR_FS_CATALOG_IMAGES);
 define('ERROR_CATALOG_IMAGE_DIRECTORY_DOES_NOT_EXIST', 'Error: Catalog images directory does not exist: ' . DIR_FS_CATALOG_IMAGES);
 define('ERROR_CANNOT_MOVE_CATEGORY_TO_PARENT', 'Error: Category cannot be moved into child category.');
